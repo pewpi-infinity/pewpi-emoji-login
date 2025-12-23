@@ -1,37 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Pewpi Login</title>
+<meta charset="utf-8">
+<title>pewpi-emoji-login — Octave</title>
 <style>
-  body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
-       background:#fff; color:#333; display:flex; justify-content:center; padding:24px}
-  .card{max-width:420px; width:100%; border-radius:18px; padding:18px;
-        box-shadow:0 12px 30px rgba(0,0,0,.12)}
-  h1{margin:0 0 8px}
-  .hint{opacity:.7; font-size:14px}
-  input{width:100%; font-size:20px; padding:12px; margin-top:12px;
-        border-radius:12px; border:1px solid #ddd}
-  button{width:100%; margin-top:12px; padding:12px; border-radius:12px;
-         border:none; background:#111; color:#fff; font-size:16px}
-  .ok{color:#0a7}
-  .err{color:#b00}
-  .hidden{display:none}
+body{font-family:monospace;background:#0b0f14;color:#e6edf3;padding:20px}
+.box{border:1px solid #30363d;padding:16px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.card{border:1px solid #444;padding:12px}
 </style>
 </head>
 <body>
-  <div class="card">
-    <h1>🔐 Pewpi Login</h1>
-    <div class="hint">Admin: <b id="adminName"></b></div>
-
-    <label class="hint">Emoji Password (3–6 emojis)</label>
-    <input id="pw" placeholder="🌸🎰💖" autocomplete="off"/>
-
-    <button id="go">Login</button>
-    <div id="msg" class="hint"></div>
-  </div>
-
-<script src="pewpi.js"></script>
+<div class="box">
+<h1>Octave :: pewpi-emoji-login</h1>
+<p>Design style: octave-cards</p>
+<div class="grid">
+  <div class="card">🧱 Research</div>
+  <div class="card">⭐ Acceleration</div>
+  <div class="card">🍄 Growth</div>
+  <div class="card">❤️ Memory</div>
+</div>
+</div>
 </body>
 </html>
